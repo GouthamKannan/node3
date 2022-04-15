@@ -18,7 +18,7 @@ BODY :  \
 
 ### 3. Assign a student to Mentor
 
-a. GET : https://students-mentors-node3.herokuapp.com/get_unassigned_students \
+a. GET : https://students-mentors-node3.herokuapp.com/get_unassigned_students 
 
 b. POST : https://students-mentors-node3.herokuapp.com/add_student_to_mentor \
 &emsp;BODY : \
