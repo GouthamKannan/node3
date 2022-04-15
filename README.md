@@ -2,7 +2,7 @@
 
 ### 1. Create a new mentor
 
-POST : https://students-mentors-node3.herokuapp.com/create_mentor
+POST : https://students-mentors-node3.herokuapp.com/create_mentor \
 BODY :
 {
   mentor_name : string
@@ -10,7 +10,7 @@ BODY :
 
 ### 2. Create a new student
 
-POST : https://students-mentors-node3.herokuapp.com/create_student
+POST : https://students-mentors-node3.herokuapp.com/create_student \
 BODY : 
 {
   student_name : string
@@ -18,9 +18,9 @@ BODY :
 
 ### 3. Assign a student to Mentor
 
-a. GET : https://students-mentors-node3.herokuapp.com/get_unassigned_students
+a. GET : https://students-mentors-node3.herokuapp.com/get_unassigned_students \
 
-b. POST : https://students-mentors-node3.herokuapp.com/add_student_to_mentor
+b. POST : https://students-mentors-node3.herokuapp.com/add_student_to_mentor \
    BODY : 
    {
      mentor_name : string,
@@ -29,7 +29,7 @@ b. POST : https://students-mentors-node3.herokuapp.com/add_student_to_mentor
 
 ### 4. Assign or Change Mentor for particular Student
 
-POST : https://students-mentors-node3.herokuapp.com/update_mentor
+POST : https://students-mentors-node3.herokuapp.com/update_mentor \
 BODY : 
 {
   mentor_name : string,
@@ -38,7 +38,7 @@ BODY :
 
 ### 5. Show all students for a particular mentor
 
-POST : https://students-mentors-node3.herokuapp.com/get_students_list
+POST : https://students-mentors-node3.herokuapp.com/get_students_list \
 BODY : 
 {
   mentor_name : string
