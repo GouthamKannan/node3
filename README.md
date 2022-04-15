@@ -3,10 +3,10 @@
 ### 1. Create a new mentor
 
 POST : https://students-mentors-node3.herokuapp.com/create_mentor \
-BODY :
-{
-  mentor_name : string
-}
+BODY : \
+{ \
+&emsp;mentor_name : string \
+} \
 
 ### 2. Create a new student
 
